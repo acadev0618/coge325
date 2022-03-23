@@ -75,7 +75,7 @@ gulp.task('compress', function() {
     .pipe(gulp.dest(opts.buildFolder));
 });
 
-gulp.task('default', gulp.series('index', 'styles', 'compile'), function() {
+gulp.task('default', gulp.series('index', 'styles', 'compile', 'webserver'), function() {
   gulp.watch(opts.watchedFiles, ['compile', 'index', 'styles']).on('error', function (){});
 });
 
