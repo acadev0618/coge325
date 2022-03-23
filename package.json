@@ -1,6 +1,9 @@
 {
   "name": "package",
   "version": "0.0.1",
+  "scripts": {
+    "start": "gulp"
+  },
   "dependencies": {
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
