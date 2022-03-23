@@ -1,0 +1,36 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.27.9",
+    "browserify": "^17.0.0",
+    "classnames": "^2.3.1",
+    "create-react-class": "^15.7.0",
+    "depd": "^2.0.0",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "http-errors": "^2.0.0",
+    "lodash": "^4.17.21",
+    "point-in-polygon": "1.1.0",
+    "react": "~17.0.0",
+    "react-dom": "^17.0.2",
+    "react-highcharts": "16.1.0",
+    "react-intl": "^5.24.7",
+    "reactify": "^1.0.0",
+    "reflux": "^6.4.1",
+    "reflux-state-mixin": "^0.8.0",
+    "superagent": "^7.1.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.5.2",
+    "gulp-csv2json": "^0.2.5",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-json-format": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-util": "^3.0.6"
+  }
+}
