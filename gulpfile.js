@@ -11,7 +11,7 @@ var jsonFormat = require('gulp-json-format');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var gutil = require('gulp-util');
-var connect = require('gulp-connect');
+
 
 function getFolders(dir){
     return fs.readdirSync(dir)
@@ -52,14 +52,6 @@ gulp.task('compile', function() {
     .pipe(gulp.dest(opts.buildFolder));
 });
 
-gulp.task('webserver', function() {
-  connect.server({
-    root: 'build',
-    livereload: true
-  });
-  connect.serverClose();
-});
-
 gulp.task('browser-sync', function() {
   browserSync({
     server: {
@@ -74,7 +66,7 @@ gulp.task('compress', function() {
     .pipe(gulp.dest(opts.buildFolder));
 });
 
-gulp.task('default', gulp.series('index', 'styles', 'compile', 'webserver'), function() {
+gulp.task('default', gulp.series('index', 'styles', 'compile'), function() {
   gulp.watch(opts.watchedFiles, ['compile', 'index', 'styles']).on('error', function (){});
 });
 
