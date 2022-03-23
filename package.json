@@ -2,7 +2,7 @@
   "name": "package",
   "version": "0.0.1",
   "scripts": {
-    "start": "gulp & gulp browser-sync"
+    "start": "gulp"
   },
   "dependencies": {
     "@babel/preset-env": "^7.16.11",
