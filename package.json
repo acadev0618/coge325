@@ -26,14 +26,15 @@
     "reflux": "^6.4.1",
     "reflux-state-mixin": "^0.8.0",
     "superagent": "^7.1.1",
-    "vinyl-source-stream": "^2.0.0"
-  },
-  "devDependencies": {
+    "vinyl-source-stream": "^2.0.0",
     "gulp-concat": "^2.5.2",
     "gulp-csv2json": "^0.2.5",
     "gulp-json-editor": "^2.2.1",
     "gulp-json-format": "^2.0.0",
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.6"
+  },
+  "devDependencies": {
+    
   }
 }
